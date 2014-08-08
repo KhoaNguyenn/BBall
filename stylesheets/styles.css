@@ -180,6 +180,7 @@ a:active {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+    font-family: "Impact"
 }
 
 h2 {
@@ -793,7 +794,7 @@ section #title {
   padding: 0 0 5px 0;
 }
 section #title h1 {
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Impact", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 40px;
   text-align: center;
@@ -849,3 +850,8 @@ section #title .credits.right {
     display: none;
   }
 }
+h8 {
+    position: fixed;
+    top: 0px;
+    right: 5px;
+   }
