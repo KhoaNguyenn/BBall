@@ -1,4 +1,5 @@
 
+
 <!doctype html>
 <html>
   <head>
@@ -6,15 +7,83 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Bball by KhoaNguyenn</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+        <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/respond.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   </head>
+
+
   <body>
 
-    <img src="http://live.drjays.com/wp-content/uploads/2014/04/knicks_woodson_dolan_meeting.jpg">
-		<a href="http://live.drjays.com/wp-content/uploads/2014/04/knicks_woodson_dolan_meeting.jpg"><img src="http://live.drjays.com/wp-content/uploads/2014/04/knicks_woodson_dolan_meeting.jpg"></a>
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Bball</h1>
+          <p>FUCK YEAH</p>
+          <p><a href="khoa.html"> Khoa</a> - Ricardo - <a href="patrick.html"> Patrick</a></p>
+          <p><a href="woodson.html"> Khoa</a> - Ricardo - <a href="patrick.html"> Patrick</a></p>
+          <hr>
+              
+            <h9 align="center">
+                <form name="count">
+<input type="text" size="83" name="count2">
+</form>
+
+<script>
+
+var before="the 2015 NBA season!!"
+var current="Fuck yeah, basketball!!"
+var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+
+function countdown(yr,m,d){
+theyear=yr;themonth=m;theday=d
+var today=new Date()
+var todayy=today.getYear()
+if (todayy < 1000)
+todayy+=1900
+var todaym=today.getMonth()
+var todayd=today.getDate()
+var todayh=today.getHours()
+var todaymin=today.getMinutes()
+var todaysec=today.getSeconds()
+var todaystring=montharray[todaym]+" "+todayd+", "+todayy+" "+todayh+":"+todaymin+":"+todaysec
+futurestring=montharray[m-1]+" "+d+", "+yr
+dd=Date.parse(futurestring)-Date.parse(todaystring)
+dday=Math.floor(dd/(60*60*1000*24)*1)
+dhour=Math.floor((dd%(60*60*1000*24))/(60*60*1000)*1)
+dmin=Math.floor(((dd%(60*60*1000*24))%(60*60*1000))/(60*1000)*1)
+dsec=Math.floor((((dd%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1)
+if(dday==0&&dhour==0&&dmin==0&&dsec==1){
+document.forms.count.count2.value=current
+return
+}
+else
+document.forms.count.count2.value="Only "+dday+ " days, "+dhour+" hours, "+dmin+" minutes, and "+dsec+" seconds left until "+before
+setTimeout("countdown(theyear,themonth,theday)",1000)
+}
+
+countdown(2014,10,28)
+</script>
+</h9>
+            </div>
   </body>
+       
+            <div style="text-align:center"><iframe width="640" height="390"
+src="http://www.youtube.com/embed/4UfF3zmr7uI?vq=hd1080&autoplay=1&controls=0&showinfo=0&iv_load_policy=3" frameborder="0" controls="0">
+</iframe>
+                
+                
+                
+                
+                
+                
+               <h8> <div id="click" align="bottom"><a href="woodson.html"><img src="http://www1.pictures.zimbio.com/gi/Portland+Trail+Blazers+v+New+York+Knicks+Jgqkns49mKXl.jpg" alt="Smiley face" width="132" height="198" position:fixed></a></div>
+        </h8>
+                
+              
+                
 </html>
+   
