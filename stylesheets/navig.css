@@ -1,0 +1,33 @@
+
+#navigation {
+	width:100%;
+	height: 81px;
+	margin-bottom: 50px;
+}
+
+#navigation .logo{
+	width: 100%;
+	height: 50px;
+	background-color: #232323;
+	border-bottom: 1px solid #d3d3d3; 	
+}
+
+#navigation .navbar{
+	height: 30px;
+	background-color: #fa8320;
+	border-bottom: 2px solid black;		
+	
+}
+
+#navigation .navbar ul {
+	width: 100%;
+	margin-top: 0px;
+	list-style-type: none;
+	
+}
+
+#navigation .navbar li{
+	width: 15%;
+	margin-top: 5px;
+	display: inline-block;
+}
