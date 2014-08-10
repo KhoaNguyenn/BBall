@@ -528,17 +528,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-body {
-    background: url("http://i.imgur.com/ii21rdb.png");
-}
 
 body {
-  padding: 0px 0 10px 0px;
+  padding: 0px 0 20px 0px;
   margin: 0px;
   font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f0e7d5;
   font-weight: normal;
-  background: #980000;
+  background: #252525;
   background-attachment: fixed !important;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2a2a29), color-stop(100%, #1c1c1c));
   background: -webkit-linear-gradient(#2a2a29, #1c1c1c);
@@ -855,7 +852,34 @@ section #title .credits.right {
 }
 h8 {
     position: fixed;
-    top: 0px;
-    right: 5px;
+    bottom: 222px;
+    left: 0px;
    }
-
+h9 { 
+ position: fixed;
+    top: 0px;
+    right: 0px;
+}
+h10 {
+    position: absolute;
+    top: 116px;
+    background-color: #600000;
+}
+h11 {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+h12 {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+#title {
+    position:absolute;
+      top:-37px; 
+ margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+       
+}
