@@ -18,3 +18,10 @@ body {
 	width: 28%;	
 	float: right;	
 }
+
+#login_reg_section {
+	float: right;
+	width: 100px;		
+}
+
+#login_reg_section ul {
